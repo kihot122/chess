@@ -172,7 +172,7 @@ struct s_Render
                 }
             }
         }
-        SDL_RenderPresent(Rend); //crashing here
+        SDL_RenderPresent(Rend);
         m_Paint.unlock();
     }
 
